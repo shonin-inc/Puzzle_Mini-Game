@@ -129,7 +129,10 @@ h1 {
 
 /* ＝ カード（サイバー・ガラス風） ＝ */
 .card {
-    background: rgba(255, 255, 255, 0.03);
+    /* 背景画像に関する記述はここから削除します */
+    background-size: cover;       
+    background-position: center;  
+    
     border-radius: 20px;
     padding: 30px 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
@@ -199,17 +202,22 @@ h1 {
 <!-- ▼▼ ジャンル2 ▼▼ -->
 <div class="genre-section">
     <div class="container">
-        <div class="card">
+        <!-- 牧場点呼のカード -->
+        <div class="card" style="background: linear-gradient(rgba(26, 11, 46, 0.6), rgba(26, 11, 46, 0.6)), url('bokujotenko-image.jpg'); background-size: cover; background-position: center;">
             <h3>牧場点呼</h3>
             <p>未完成</p>
             <a href="https://shonin-inc.github.io/bokujotenko/" class="btn" target="_blank">開く</a>
         </div>
-        <div class="card">
+
+        <!-- 棋士との遭遇のカード -->
+        <div class="card" style="background: linear-gradient(rgba(26, 11, 46, 0.6), rgba(26, 11, 46, 0.6)), url('kishitonosougu-image.jpg'); background-size: cover; background-position: center;">
             <h3>棋士との遭遇</h3>
             <p>動きはする</p>
-            <a href="https://shonin-inc.github.io/kishitonosougu/" class="btn" target="_blank">開く</a>
+            <a href="https://shonin-inc.github.io/kishitonosouguu/" class="btn" target="_blank">開く</a>
         </div>
-        <div class="card">
+
+        <!-- 花札の恋のカード -->
+        <div class="card" style="background: linear-gradient(rgba(26, 11, 46, 0.6), rgba(26, 11, 46, 0.6)), url('hanafudanokoi-image.jpg'); background-size: cover; background-position: center;">
             <h3>花札の恋</h3>
             <p>動きはする</p>
             <a href="https://shonin-inc.github.io/hanafudanokoi/" class="btn" target="_blank">開く</a>
